@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, h3, p {
 
     font-family: Perpetua;
     text-align: center;
@@ -15,7 +15,7 @@ h1, h2 {
 }
 
 body {
-    background-color: #192A51;
+    background: #192A51;
     margin: 0;
     padding: 0;
     font-size: 15px;
@@ -64,7 +64,7 @@ nav > ul > li > a {
     color: #F5E6E8;
 }
 
-.text-meet-team{
+.text-meet-team {
     line-height: 120px;
 }
 
@@ -138,6 +138,7 @@ nav > ul > li > a {
     opacity: 30%;
 }
 
+
 #reviews {
 
     background-color: #967AA1;
@@ -150,3 +151,100 @@ nav > ul > li > a {
 
 
 
+}
+
+.text-meet-team-third {
+    font-size: 96px;
+    /*width: 1000px;*/
+    height: 400px;
+    /*left: 117px;*/
+    /*top: 479px;*/
+    /*padding: 20px;*/
+    text-align: center;
+}
+
+.text-meet-team-word {
+    color: #967AA1;
+}
+
+
+.footer {
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    background: linear-gradient(#192A51, #967AA1, #AAA1C8, #D5C6E0, #F5E6E8);
+    text-align: left!important;
+}
+
+.footer p {
+    text-align: left;
+    padding: 15px 0 15px 15px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 480px;
+    margin-bottom: 16px;
+    padding: 0 40px;}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/*!* Clear floats *!*/
+/*.container::after, .row::after {*/
+/*    content: "";*/
+/*    clear: both;*/
+/*    display: table;*/
+/*}*/
+
+.title {
+    color: #F5E6E8;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.second-row-meetus{
+    width: max-content;
+    margin: 0 auto;
+}
+
+.row{
+    width: max-content;
+    margin: 0 auto;
+    height: 900px;
+}
