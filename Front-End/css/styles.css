@@ -56,20 +56,11 @@ nav > ul > li > a {
 }
 
 .logo-img-text {
-    position: absolute;
-    width: 120px;
-    height: 83.6px;
-    top: 50px;
-
     font-family: Perpetua;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
     color: #F5E6E8;
 }
 
