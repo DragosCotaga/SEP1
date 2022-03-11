@@ -1,0 +1,58 @@
+
+body {
+    background-color: #F5E6E8;
+}
+
+p {
+    font-family: "Perpetua";
+    font-size: 18px;
+}
+
+h1 {
+
+    font-family: "Comic Sans MS";
+    font-size: 60px;
+    text-align: center;
+    color: #192A51;
+}
+
+h3 {
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    text-align: center;
+    color: #192A51;
+
+}
+
+#navbar {
+    background-color: #967AA1;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #192A51;
+
+}
+
+#navbar a {
+    font-family: Perpetua;
+    font-size: 25px;
+    color: #F5E6E8;
+    padding: 16px;
+    text-decoration: none;
+
+}
+
+#navbar a:hover {
+    background-color: #F5E6E8;
+    color: #967AA1;
+}
+#news p {
+    text-align: center;
+}
+#news {
+    height: 500px;
+    width: 400px;
+    overflow: auto;
+    float: left;
+    background-color: #D5C6E0;
+
+}

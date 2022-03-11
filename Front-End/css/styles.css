@@ -19,13 +19,19 @@ body {
     margin: 0;
     padding: 0;
     font-size: 15px;
+    font-family: Perpetua;
+    font-size: 18px;
+
 }
 
 nav {
     align-items: center;
     text-align: left;
     margin: 0;
-
+}
+nav a:hover {
+    background-color: #F5E6E8;
+    color: #192A51;
 }
 
 nav ul {
@@ -40,6 +46,8 @@ nav ul li {
 }
 
 nav > ul > li > a {
+    font-family: Perpetua;
+    font-size: 20px;
     color: #F5E6E8;
     display: block;
     line-height: 2em;
@@ -48,25 +56,93 @@ nav > ul > li > a {
 }
 
 .logo-img-text {
-    position: absolute;
-    width: 120px;
-    height: 83.6px;
-    top: 50px;
-
-    font-family: sans-serif;
+    font-family: Perpetua;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
     color: #F5E6E8;
 }
 
 .text-meet-team {
     line-height: 120px;
+}
+/* ----------Tina index css-------- */
+#news {
+    height: 500px;
+    width: 450px;
+    overflow: auto;
+    float: right;
+    background-color: #967AA1;
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+
+#news p {
+    text-align: center;
+}
+
+.post {
+    background: rgb(150,122,161);
+    background: radial-gradient(circle, rgba(150,122,161,1) 0%, rgba(170,161,200,1) 38%, rgba(213,198,224,1) 100%);
+    margin: 5px;
+    border: 2px solid black;
+}
+#news img {
+    height: 370px;
+    width: 420px;
+    opacity: 50%;
+}
+#news h2 {
+
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    color: #192A51;
+    text-align: center;
+    color: white;
+
+
+}
+
+#news h3 {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    text-align: center;
+    color: #192A51;
+
+}
+#quote {
+    position: relative;
+    float: left;
+
+
+    margin-top: 30px;
+    margin-left: 130px;
+
+}
+#quote img {
+    width: 600px;
+    height: 400px;
+
+}
+
+#q{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    font-family: "Brush Script MT";
+    font-size: 40px;
+    visibility: hidden;
+
+
+
+}
+#quote:hover #q{
+    visibility: visible;
+}
+#quote:hover #hotel {
+    opacity: 30%;
 }
 
 .text-meet-team-second {
