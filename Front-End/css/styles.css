@@ -1,6 +1,6 @@
 h1, h2 {
 
-    font-family: sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Perpetua;
     text-align: center;
     color: #F5E6E8;
 }
@@ -67,16 +67,15 @@ nav > ul > li > a {
 .text-meet-team{
     line-height: 120px;
 }
+
 /* ----------Tina index css-------- */
 #news {
-    height: 500px;
-    width: 450px;
+    height: 920px;
+    width: 490px;
     overflow: auto;
     float: right;
-    background-color: #967AA1;
-    margin-top: 30px;
-    margin-right: 10px;
-
+    background-color: #AAA1C8;
+    margin: 20px;
 }
 
 #news p {
@@ -84,65 +83,69 @@ nav > ul > li > a {
 }
 
 .post {
-    background: rgb(150,122,161);
-    background: radial-gradient(circle, rgba(150,122,161,1) 0%, rgba(170,161,200,1) 38%, rgba(213,198,224,1) 100%);
-    margin: 5px;
-    border: 2px solid black;
+    background: #D5C6E0;
+
+    margin: 10px;
+    border: 2px solid #192A51;
+    color: #192A51;
 }
 #news img {
     height: 370px;
-    width: 420px;
-    opacity: 50%;
+    width: 450px;
+    opacity: 60%;
 }
 #news h2 {
-
-    font-family: "Comic Sans MS";
-    font-size: 30px;
+    font-family: Perpetua;
+    font-size: 35px;
     color: #192A51;
     text-align: center;
-    color: white;
-
 
 }
 
 #news h3 {
-    font-family: "Comic Sans MS";
-    font-size: 20px;
+    font-family: Perpetua;
+    font-size: 30px;
     text-align: center;
     color: #192A51;
 
 }
 #quote {
+    background-color: #D5C6E0;
     position: relative;
     float: left;
-
-
-    margin-top: 30px;
-    margin-left: 130px;
+    width: 650px;
+    margin: 20px;
+    padding: 20px;
 
 }
 #quote img {
-    width: 600px;
-    height: 400px;
-
+    width: 650px;
+    height: 420px;
 }
 
 #q{
     position: absolute;
-    top: 130px;
+    top: 150px;
     left: 100px;
     font-family: "Brush Script MT";
     font-size: 40px;
     visibility: hidden;
-
-
-
 }
 #quote:hover #q{
     visibility: visible;
 }
 #quote:hover #hotel {
     opacity: 30%;
+}
+
+#reviews {
+
+    background-color: #967AA1;
+    color: #D5C6E0;
+    width: 650px;
+    padding: 20px;
+    float: left;
+    margin: 20px;
 }
 
 
